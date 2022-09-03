@@ -1,0 +1,118 @@
+*{
+    font-family: "Epilogue";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    height: 600px;
+    font-size: 110%;
+}
+:root {
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+    --body-font: "Epilogue", sans-serif;
+    --parag-size: 18px;
+}
+.main-page{
+    background-color: hsl(0, 0, 98%);
+    height: 600px;
+}
+.row{
+    margin: 30 10 30 10;
+    display: flex;
+}
+.main-nav{
+    margin-top: 30px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main-nav li{
+    list-style: none;
+    display: inline-block;
+}
+.list{
+    margin-left: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 13px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btn-hidden{
+    display: inline-block;
+    font-weight: 300;
+    text-decoration: none; 
+}
+.nav-btn{
+    margin-left: 600px;
+}
+.nav-div{
+    display: inline;
+}
+.nav-dropdown{
+    margin-left: 65px;
+}
+.hero-img{
+    width: 60%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.header-div{
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.header-one{
+    font-size: 4.5rem;
+    color: var(--almost-black);
+    font-weight: 800;
+}
+.para{
+    color: var(--medium-gray);
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 2rem 0;
+    padding-right: 5rem;
+    text-align: left;
+    font-size: 18px;
+}
+.headers-img{
+    width: 60%;
+    height: 100%;
+    margin-left: 65px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.header-images{
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.btn-black{
+    
+    padding: 20px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: #fff ;
+}
+.img-head{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
